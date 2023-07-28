@@ -1,6 +1,6 @@
 
 def caixaElet():
-    print("\n***** CAIXA ELETRÔNICO *****\n")
+    print("\n**** CAIXA ELETRÔNICO ****\n")
     valor = int(input("Qual valor voce deseja sacar? "))
 
     if(valor < 10 or valor >600):
