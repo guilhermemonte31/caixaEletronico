@@ -3,7 +3,7 @@
 # O programa não deve se preocupar com a quantidade de notas existentes na máquina.​
 # Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;​
 # Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
-
+print("\n***** CAIXA ELETRÔNICO *****\n")
 valor = int(input("Qual valor voce deseja sacar? "))
 
 if(valor < 10 or valor >600):
